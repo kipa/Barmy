@@ -1,0 +1,403 @@
+@font-face {
+    font-family: OutrunFuture;
+    src: url('../fonts/outrunfuture.otf');
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/montserrat.otf');
+}
+
+
+body {
+    margin: 0 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* SECTION TOP */
+
+.top {
+    position: relative;
+    height: 1050px;
+    background: url('../img/header.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.top-content {
+    margin-top: 100px;
+}
+
+.logo {
+    width: 70%;
+}
+
+.description {
+    padding-top: 20px;
+    width: 38%;
+}
+
+header ul.primary-nav {
+    position: relative;
+    padding: 0;
+    text-align: center;
+    padding-top: 100px;
+}
+
+header ul.primary-nav li {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline; 
+}
+
+header ul.primary-nav li a {
+    font-size: 18px;
+    font-family: OutrunFuture;
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    background: url('../img/hover-menu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95%;
+}
+
+.top-button {
+    margin-top: 100px;
+}
+
+.btn-white {
+    color: #000;
+    font-family: OutrunFuture;
+    background: url('../img/button-bg.png');
+    padding: 10px 60px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.btn-white:hover {
+    color: #fff;
+    background: url('../img/button-bg-hover.png');
+}
+
+/* END SECTION TOP */
+
+/* SECTION ABOUT */
+
+.about {
+    position: relative;
+    height: 1050px;
+    background: url('../img/about.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding-top: 250px;
+}
+
+.about-content {
+    padding-top: 100px;
+}
+
+.about-title {
+    margin-left: 10px;
+    color: #95a7ff;
+    font-size: 24px;
+    font-family: OutrunFuture;
+}
+
+.about-content h1 {
+    margin-top: -20px;
+    font-family: OutrunFuture;
+    font-size: 60px;
+    color: #fff;
+}
+
+.about-content p {
+    margin-top: -20px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.about-img {
+    width: 100%;
+}
+
+/* END SECTION ABOUT */
+
+/* SECTION SLIDER */
+
+#slider {
+    transition: 0.2s;
+}
+
+.slider {
+    height: 800px;
+    background: url('../img/slider-one.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-color: #000;
+}
+
+.slider-content {
+    padding-top: 200px;
+}
+
+.slider-content h1 {
+    font-family: OutrunFuture;
+    font-size: 60px;
+    color: #fff;
+}
+
+.slider-content p {
+    margin-top: -20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.thumbnails {
+    margin-top: 145px;
+}
+
+.thumb {
+    cursor: pointer;
+    display: inline-block;
+    background-color: #000;
+    width: 286px;
+    height: 200px;
+    padding: 0 0;
+    margin-left: -4px;
+    transition: 0.2s;
+}
+
+.thumb1 {
+    background: url('../img/slider-one.jpg');
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 7px rgb(189, 27, 27);
+}
+
+.thumb2 {
+    background: url('../img/slider-two.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.thumb3 {
+    background: url('../img/slider-three.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.thumb4 {
+    background: url('../img/slider-four.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+/* END SECTION SLIDER */
+
+/* SECTION FOOTER */
+
+.footer {
+    height: 800px;
+    background: url('../img/footer.jpg');
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+.footer-content h1 {
+    font-family: OutrunFuture;
+    font-size: 60px;
+    color: rgb(250, 27, 27);
+    opacity: 0.7;
+}
+
+.footer-content p {
+    padding-top: 200px;
+    font-family: OutrunFuture;
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    border-bottom: 1px dashed rgb(61, 61, 61);
+}
+
+.footer-content a:hover {
+    border-bottom: none;
+}
+
+.bottom-button {
+    margin-top: 50px;
+}
+
+.btn-red {
+    border-bottom: none !important;
+    color: rgb(250, 27, 27);
+    font-family: OutrunFuture;
+    background: url('../img/button-bg.png');
+    padding: 10px 84px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.btn-red:hover {
+    color: #fff;
+    background: url('../img/button-red-bg-hover.png');
+}
+
+/* END SECTION FOOTER */
+
+/* RESPONSIVE */
+
+@media (max-width: 1300px) {
+
+    .about-content {
+        padding-top: 40px;
+    }
+
+    .about-content h1 {
+        font-size: 50px;
+    }
+
+    .about-content p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .about {
+        height: 800px;
+    }
+
+    .about-content {
+        padding-top: 0px;
+    }
+
+    .about-content h1 {
+        font-size: 35px;
+    }
+
+    .about-content p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .slider {
+        padding-top: 90px;
+    }
+
+    .slider-content h1 {
+        font-size: 35px;
+    }
+
+    .slider-content p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .thumbnails {
+        display: none;
+    }
+
+    .footer {
+        height: 700px;
+    }
+
+    .footer-content h1 {
+        font-size: 35px;
+    }
+
+    .footer-content p {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .about {
+        height: 800px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .top {
+        padding-bottom: 30px;
+        height: auto;
+    }
+    
+    .about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: auto;
+    }
+
+    .about-content {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .slider {
+        padding-top: 70px;
+        padding-bottom: 100px;
+        height: auto;
+    }
+
+    .slider-content {
+        padding-top: 0px;
+    }
+
+    .footer {
+        padding-top: 70px;
+        padding-bottom: 30px;
+        height: auto;
+    }
+
+    .footer-content p {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .top {
+        height: 600px;
+    }
+
+    header ul.primary-nav {
+        padding-top: 50px;
+    }
+
+    .top-content {
+        margin-top: 50px;
+    }
+
+    .logo {
+        width: 95%;
+    }
+
+    .description {
+        width: 70%;
+    }
+}
