@@ -1,5 +1,5 @@
 # Barmy / HTML &amp; CSS Template
-<img src="https://pavz.ru/demo/images/barmy-mockup.jpg" />
+<img src="https://pavlovkirill.com/img/barmy-mockup.jpg" />
 
 <hr>
 <p align="center">
